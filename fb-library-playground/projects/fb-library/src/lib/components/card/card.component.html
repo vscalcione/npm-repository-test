@@ -1,6 +1,6 @@
 <div class="card">
-    <div class="title" (click)="toggle.emit()"> {{title}} </div>
-    <div class="description">
+    <div class="title" (click)="toggle.emit(1234)"> {{title}} </div>
+    <div class="description" *ngIf="opened">
         <ng-content></ng-content>
         <hr>
         {{utils.title}}
