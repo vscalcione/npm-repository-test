@@ -1,6 +1,6 @@
 {
   "name": "fb-library-test-npm",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "peerDependencies": {
     "@angular/common": "^10.0.4",
     "@angular/core": "^10.0.4"
@@ -9,23 +9,11 @@
     "tslib": "^2.0.0"
   },
   "main": "bundles/fb-library-test-npm.umd.js",
-  "module_ivy_ngcc": "__ivy_ngcc__/fesm2015/fb-library-test-npm.js",
   "module": "fesm2015/fb-library-test-npm.js",
-  "es2015_ivy_ngcc": "__ivy_ngcc__/fesm2015/fb-library-test-npm.js",
   "es2015": "fesm2015/fb-library-test-npm.js",
   "esm2015": "esm2015/fb-library-test-npm.js",
-  "fesm2015_ivy_ngcc": "__ivy_ngcc__/fesm2015/fb-library-test-npm.js",
   "fesm2015": "fesm2015/fb-library-test-npm.js",
   "typings": "fb-library-test-npm.d.ts",
   "metadata": "fb-library-test-npm.metadata.json",
-  "sideEffects": false,
-  "__processed_by_ivy_ngcc__": {
-    "es2015": "10.0.4",
-    "fesm2015": "10.0.4",
-    "module": "10.0.4",
-    "typings": "10.0.4"
-  },
-  "scripts": {
-    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by NGCC. This is not allowed.\\nPlease delete and rebuild the package, without compiling with NGCC, before attempting to publish.\\nNote that NGCC may have been run by importing this package into another project that is being built with Ivy enabled.\\n')\" && exit 1"
-  }
+  "sideEffects": false
 }

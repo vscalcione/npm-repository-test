@@ -64,7 +64,7 @@ class CardComponent {
 CardComponent.decorators = [
     { type: Component, args: [{
                 selector: 'fb-card',
-                template: "<div class=\"card\">\n    <div class=\"title\" (click)=\"toggle.emit()\"> {{title}} </div>\n    <div class=\"description\">\n        <ng-content></ng-content>\n        <hr>\n        {{utils.title}}\n    </div>\n</div>",
+                template: "<div class=\"card\">\n    <div class=\"title\" (click)=\"toggle.emit(1234)\"> {{title}} </div>\n    <div class=\"description\" *ngIf=\"opened\">\n        <ng-content></ng-content>\n        <hr>\n        {{utils.title}}\n    </div>\n</div>",
                 styles: [".card{border:1px solid #000;border-radius:10px}.title{padding:10px}.description{font-style:italic;padding:10px}"]
             },] }
 ];

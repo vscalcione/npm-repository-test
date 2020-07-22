@@ -22,3 +22,8 @@ Run `ng test fb-library` to execute the unit tests via [Karma](https://karma-run
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Installation
+```javascript
+npm install fb-library-test-npm
+```

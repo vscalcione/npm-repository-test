@@ -3,7 +3,6 @@ import { UtilsService } from '../../services/utils.service';
 /**
  * This component is a simplier card
  */
-import * as ɵngcc0 from '@angular/core';
 export declare class CardComponent {
     utils: UtilsService;
     /**
@@ -19,8 +18,4 @@ export declare class CardComponent {
      */
     toggle: EventEmitter<any>;
     constructor(utils: UtilsService);
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<CardComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<CardComponent, "fb-card", never, { "title": "title"; "opened": "opened"; }, { "toggle": "toggle"; }, never, ["*"]>;
 }
-
-//# sourceMappingURL=card.component.d.ts.map
