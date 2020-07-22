@@ -1,6 +1,7 @@
 # npm-repository-test
-This is a repository with all info of my npm package deployment
+[![npm version](https://badge.fury.io/js/fb-library-test-npm.svg)](https://badge.fury.io/js/fb-library-test-npm)
 
+This is a repository with all info of my npm package deployment
 
 All the product code was carried out following a course "<b>Creating, documenting and publishing an Angular library on npm</b>" by the teacher 
 <b>Fabio Biondi</b>
