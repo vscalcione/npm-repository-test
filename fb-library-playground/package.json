@@ -12,7 +12,8 @@
     "lib:publish": "npm publish dist/fb-library",
     "doc:generate": "./node_modules/.bin/compodoc -p projects/fb-library/tsconfig.lib.json",
     "doc:serve": "lite-server --baseDir=\"documentation\"",
-    "doc": "npm run doc:generate && npm run doc:serve"
+    "doc": "npm run doc:generate && npm run doc:serve",
+    "storybook": "start-storybook -p 9001 -c .storybook"
   },
   "private": true,
   "dependencies": {
@@ -33,10 +34,14 @@
     "@angular-devkit/build-ng-packagr": "~0.1000.3",
     "@angular/cli": "~10.0.1",
     "@angular/compiler-cli": "~10.0.2",
+    "@babel/core": "^7.10.5",
     "@compodoc/compodoc": "^1.1.11",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/angular": "^5.3.19",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
+    "babel-loader": "^8.1.0",
     "codelyzer": "^6.0.0-next.1",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~5.0.0",

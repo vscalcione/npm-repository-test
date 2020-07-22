@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+	"extends": "../tsconfig",
+	"exclude": [
+		"../src/test.ts",
+		"../src/**/*.spec.ts",
+		"../projects/**/*.spec.ts"
+	],
+	"include": [
+		"../projects/**/*"
+	]
+}
