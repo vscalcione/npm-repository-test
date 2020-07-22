@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { UtilsService } from 'fb-library-test-npm';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'fb-library-usage';
+  opened = true;
+  constructor(public utils: UtilsService){
+    console.log(utils.add(2, 3));
+  }
 }

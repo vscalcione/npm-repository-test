@@ -1,0 +1,1 @@
+{"version":3,"file":"utils.service.d.ts","sources":["utils.service.d.ts"],"names":[],"mappings":";AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AACA","sourcesContent":["export declare class UtilsService {\n    /**\n     * Hello message\n     */\n    title: string;\n    /**\n     * Add operation\n     */\n    add(a: number, b: number): number;\n}\n"]}

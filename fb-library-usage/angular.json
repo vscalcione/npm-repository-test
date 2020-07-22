@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "fb-library-usage"
+    }
+  },
+  "defaultProject": "fb-library-usage",
+  "cli": {
+    "analytics": "41e0b38d-36be-404e-a476-4352775bd8fc"
+  }
 }
