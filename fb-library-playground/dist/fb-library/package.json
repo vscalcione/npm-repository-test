@@ -1,0 +1,19 @@
+{
+  "name": "fb-library-test-npm",
+  "version": "0.0.2",
+  "peerDependencies": {
+    "@angular/common": "^10.0.4",
+    "@angular/core": "^10.0.4"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "main": "bundles/fb-library-test-npm.umd.js",
+  "module": "fesm2015/fb-library-test-npm.js",
+  "es2015": "fesm2015/fb-library-test-npm.js",
+  "esm2015": "esm2015/fb-library-test-npm.js",
+  "fesm2015": "fesm2015/fb-library-test-npm.js",
+  "typings": "fb-library-test-npm.d.ts",
+  "metadata": "fb-library-test-npm.metadata.json",
+  "sideEffects": false
+}
